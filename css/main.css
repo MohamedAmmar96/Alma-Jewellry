@@ -208,6 +208,10 @@
         position: relative;
     }
     
+    html[dir=rtl] .search-box .search-bar {
+        margin-right: 0;
+    }
+    
     .search-bar .search-input {
         width: 100%;
         height: 45px;
