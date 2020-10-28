@@ -67,6 +67,12 @@
             width: 380px;
             box-shadow: 3px 3px 15px #00000012, -3px -3px 15px #00000012;
         }
+        .search-box .search-bar {
+            margin-left: auto;
+        }
+        html[dir=rtl] .search-box .search-bar {
+            margin-right: auto;
+        }
         .search-open {
             left: 0;
         }
@@ -402,6 +408,12 @@
             top: 105px;
             width: 400px;
             box-shadow: 3px 3px 15px #00000012, -3px -3px 15px #00000012;
+        }
+        .search-box .search-bar {
+            margin-left: auto;
+        }
+        html[dir=rtl] .search-box .search-bar {
+            margin-right: auto;
         }
         .search-open {
             left: 0;
